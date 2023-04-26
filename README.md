@@ -4,12 +4,18 @@
 
 sudo apt install git
 
-2. Make a ~/bin folder in your home directory
-
-3. CD to that bin folder then run the command below
+2. Once GIT is installed, run the command below to clone the repository.
 
 git clone https://github.com/CODERmarv/clilookup.git
+
+3. then change directory to clilookup/
+
+cd clilookup/
 
 4. Execute runme file by running this command.
 
 sh runme
+
+5. Thats it!
+
+
