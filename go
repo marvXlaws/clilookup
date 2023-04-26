@@ -33,13 +33,11 @@ extract $kword
 
 extract(){
 
-result=$(grep "$kword" "$myfile")
+result=$(grep "$kword" "$myfile" | while read -r line;)
 
 case $result in
 
 -n)
-    
-while read -r line; 
 do
 
 if [ "$i" = 1 ]; then
