@@ -1,0 +1,287 @@
+wp admin|Open /wp-admin/ in a browser.|https://developer.wordpress.org/cli/commands/admin/
+wp cache|Adds, removes, fetches, and flushes the WP Object Cache object.|https://developer.wordpress.org/cli/commands/cache/
+wp cap|Adds, removes, and lists capabilities of a user role.|https://developer.wordpress.org/cli/commands/cap/
+wp cli|Reviews current WP-CLI info, checks for updates, or views defined aliases.|https://developer.wordpress.org/cli/commands/cli/
+wp comment|Creates, updates, deletes, and moderates comments.|https://developer.wordpress.org/cli/commands/comment/
+wp config|Generates and reads the wp-config.php file.|https://developer.wordpress.org/cli/commands/config/
+wp core|Downloads, installs, updates, and manages a WordPress installation.|https://developer.wordpress.org/cli/commands/core/
+wp cron|Tests, runs, and deletes WP-Cron events; manages WP-Cron schedules.|https://developer.wordpress.org/cli/commands/cron/
+wp db|Performs basic database operations using credentials stored in wp-config.php.|https://developer.wordpress.org/cli/commands/db/
+wp dist-archive|Create a distribution archive based on a project’s .distignore file.|https://developer.wordpress.org/cli/commands/dist-archive/
+wp embed|Inspects oEmbed providers, clears embed cache, and more.|https://developer.wordpress.org/cli/commands/embed/
+wp eval|Executes arbitrary PHP code.|https://developer.wordpress.org/cli/commands/eval/
+wp eval-file|Loads and executes a PHP file.|https://developer.wordpress.org/cli/commands/eval-file/
+wp export|Exports WordPress content to a WXR file.|https://developer.wordpress.org/cli/commands/export/
+wp find|Find WordPress installations on the filesystem.|https://developer.wordpress.org/cli/commands/find/
+wp help|Gets help on WP-CLI, or on a specific command.|https://developer.wordpress.org/cli/commands/help/
+wp i18n|Provides internationalization tools for WordPress projects.|https://developer.wordpress.org/cli/commands/i18n/
+wp import|Imports content from a given WXR file.|https://developer.wordpress.org/cli/commands/import/
+wp language|Installs, activates, and manages language packs.|https://developer.wordpress.org/cli/commands/language/
+wp maintenance-mode|Activates, deactivates or checks the status of the maintenance mode of a site.|https://developer.wordpress.org/cli/commands/maintenance-mode/
+wp media|Imports files as attachments, regenerates thumbnails, or lists registered image sizes.|https://developer.wordpress.org/cli/commands/media/
+wp menu|Lists, creates, assigns, and deletes the active theme’s navigation menus.|https://developer.wordpress.org/cli/commands/menu/
+wp network|Perform network-wide operations.|https://developer.wordpress.org/cli/commands/network/
+wp option|Retrieves and sets site options, including plugin and WordPress settings.|https://developer.wordpress.org/cli/commands/option/
+wp package|Lists, installs, and removes WP-CLI packages.|https://developer.wordpress.org/cli/commands/package/
+wp plugin|Manages plugins, including installs, activations, and updates.|https://developer.wordpress.org/cli/commands/plugin/
+wp post|Manages posts, content, and meta.|https://developer.wordpress.org/cli/commands/post/
+wp post-type|Retrieves details on the site’s registered post types.|https://developer.wordpress.org/cli/commands/post-type/
+wp profile|Quickly identify what’s slow with WordPress.|https://developer.wordpress.org/cli/commands/profile/
+wp rewrite|Lists or flushes the site’s rewrite rules, updates the permalink structure.|https://developer.wordpress.org/cli/commands/rewrite         
+wp role|Manages user roles, including creating new roles and resetting to defaults.|https://developer.wordpress.org/cli/commands/role
+wp scaffold|Generates code for post types, taxonomies, plugins, child themes, etc.|https://developer.wordpress.org/cli/commands/scaffold
+wp search-replace|Searches/replaces strings in the database.|https://developer.wordpress.org/cli/commands/search-replace
+wp server|Launches PHP’s built-in web server for a specific WordPress installation.|https://developer.wordpress.org/cli/commands/server
+wp shell|Opens an interactive PHP console for running and testing PHP code.|https://developer.wordpress.org/cli/commands/shell
+wp sidebar|Lists registered sidebars.|https://developer.wordpress.org/cli/commands/sidebar
+wp site|Creates, deletes, empties, moderates, and lists one or more sites on a multisite installation.|https://developer.wordpress.org/cli/commands/site
+wp super-admin|Lists, adds, or removes super admin users on a multisite installation.|https://developer.wordpress.org/cli/commands/super-admin
+wp taxonomy|Retrieves information about registered taxonomies.|https://developer.wordpress.org/cli/commands/taxonomy
+wp term|Manages taxonomy terms and term meta, with create, delete, and list commands.|https://developer.wordpress.org/cli/commands/term
+wp theme|Manages themes, including installs, activations, and updates.|https://developer.wordpress.org/cli/commands/theme
+wp transient|Adds, gets, and deletes entries in the WordPress Transient Cache.|https://developer.wordpress.org/cli/commands/transient
+wp user|Manages users, along with their roles, capabilities, and meta.|https://developer.wordpress.org/cli/commands/user
+wp widget|Manages widgets, including adding and moving them within sidebars.|https://developer.wordpress.org/cli/commands/widget
+wp cache add|Adds a value to the object cache.|https://developer.wordpress.org/cli/commands/cache/add
+wp cache decr|Decrements a value in the object cache.|https://developer.wordpress.org/cli/commands/cache/decr
+wp cache delete|Removes a value from the object cache.|https://developer.wordpress.org/cli/commands/cache/delete
+wp cache flush|Flushes the object cache.|https://developer.wordpress.org/cli/commands/cache/flush
+wp cache get|Gets a value from the object cache.|https://developer.wordpress.org/cli/commands/cache/get
+wp cache incr|Increments a value in the object cache.|https://developer.wordpress.org/cli/commands/cache/incr
+wp cache replace|Replaces a value in the object cache, if the value already exists.|https://developer.wordpress.org/cli/commands/cache/replace
+wp cache set|Sets a value to the object cache, regardless of whether it already exists.|https://developer.wordpress.org/cli/commands/cache/set
+wp cache type|Attempts to determine which object cache is being used.|https://developer.wordpress.org/cli/commands/cache/type
+wp cap add|Adds capabilities to a given role.|https://developer.wordpress.org/cli/commands/cap/add
+wp cap list|Lists capabilities for a given role.|https://developer.wordpress.org/cli/commands/cap/list
+wp cap remove|Removes capabilities from a given role.|https://developer.wordpress.org/cli/commands/cap/remove
+wp cli alias|Retrieves, sets and updates aliases for WordPress Installations.|https://developer.wordpress.org/cli/commands/cli/alias
+wp cli cache|Manages the internal WP-CLI cache,.|https://developer.wordpress.org/cli/commands/cli/cache
+wp cli check-update|Checks to see if there is a newer version of WP-CLI available.|https://developer.wordpress.org/cli/commands/cli/check-update
+wp cli cmd-dump|Dumps the list of installed commands, as JSON.|https://developer.wordpress.org/cli/commands/cli/cmd-dump
+wp cli completions|Generates tab completion strings.|https://developer.wordpress.org/cli/commands/cli/completions
+wp cli has-command|Detects if a command exists|https://developer.wordpress.org/cli/commands/cli/has-command
+wp cli info|Prints various details about the WP-CLI environment.|https://developer.wordpress.org/cli/commands/cli/info
+wp cli param-dump|Dumps the list of global parameters, as JSON or in var_export format.|https://developer.wordpress.org/cli/commands/cli/param-dump
+wp cli update|Updates WP-CLI to the latest release.|https://developer.wordpress.org/cli/commands/cli/update
+wp cli version|Prints WP-CLI version.|https://developer.wordpress.org/cli/commands/cli/version
+wp comment approve|Approves a comment.|https://developer.wordpress.org/cli/commands/comment/approve
+wp comment count|Counts comments, on whole blog or on a given post.|https://developer.wordpress.org/cli/commands/comment/count
+wp comment create|Creates a new comment.|https://developer.wordpress.org/cli/commands/comment/create
+wp comment delete|Deletes a comment.|https://developer.wordpress.org/cli/commands/comment/delete
+wp comment exists|Verifies whether a comment exists.|https://developer.wordpress.org/cli/commands/comment/exists
+wp comment generate|Generates some number of new dummy comments.|https://developer.wordpress.org/cli/commands/comment/generate
+wp comment get|Gets the data of a single comment.|https://developer.wordpress.org/cli/commands/comment/get
+wp comment list|Gets a list of comments.|https://developer.wordpress.org/cli/commands/comment/list
+wp comment meta|Adds, updates, deletes, and lists comment custom fields.|https://developer.wordpress.org/cli/commands/comment/meta
+wp comment recount|Recalculates the comment_count value for one or more posts.|https://developer.wordpress.org/cli/commands/comment/recount
+wp comment spam|Marks a comment as spam.|https://developer.wordpress.org/cli/commands/comment/spam
+wp comment status|Gets the status of a comment.|https://developer.wordpress.org/cli/commands/comment/status
+wp comment trash|Trashes a comment.|https://developer.wordpress.org/cli/commands/comment/trash
+wp comment unapprove|Unapproves a comment.|https://developer.wordpress.org/cli/commands/comment/unapprove
+wp comment unspam|Unmarks a comment as spam.|https://developer.wordpress.org/cli/commands/comment/unspam
+wp comment untrash|Untrashes a comment.|https://developer.wordpress.org/cli/commands/comment/untrash
+wp comment update|Updates one or more comments.|https://developer.wordpress.org/cli/commands/comment/update
+wp config create|Generates a wp-config.php file.|https://developer.wordpress.org/cli/commands/config/create
+wp config delete|Deletes a specific constant or variable from the wp-config.php file.|https://developer.wordpress.org/cli/commands/config/delete
+wp config edit|Launches system editor to edit the wp-config.php file.|https://developer.wordpress.org/cli/commands/config/edit
+wp config get|Gets the value of a specific constant or variable defined in wp-config.php file.|https://developer.wordpress.org/cli/commands/config/get
+wp config has|Checks whether a specific constant or variable exists in the wp-config.php file.|https://developer.wordpress.org/cli/commands/config/has
+wp config list|Lists variables, constants, and file includes defined in wp-config.php file.|https://developer.wordpress.org/cli/commands/config/list
+wp config path|Gets the path to wp-config.php file.|https://developer.wordpress.org/cli/commands/config/path
+wp config set|Sets the value of a specific constant or variable defined in wp-config.php file.|https://developer.wordpress.org/cli/commands/config/set
+wp config shuffle-salts|Refreshes the salts defined in the wp-config.php file.|https://developer.wordpress.org/cli/commands/config/shuffle-salts
+wp core check-update|Checks for WordPress updates via Version Check API.|https://developer.wordpress.org/cli/commands/core/check-update
+wp core download|Downloads core WordPress files.|https://developer.wordpress.org/cli/commands/core/download
+wp core install|Runs the standard WordPress installation process.|https://developer.wordpress.org/cli/commands/core/install
+wp core is-installed|Checks if WordPress is installed.|https://developer.wordpress.org/cli/commands/core/is-installed
+wp core multisite-convert|Transforms an existing single-site installation into a multisite installation.|https://developer.wordpress.org/cli/commands/core/multisite-convert
+wp core multisite-install|Installs WordPress multisite from scratch.|https://developer.wordpress.org/cli/commands/core/multisite-install
+wp core update|Updates WordPress to a newer version.|https://developer.wordpress.org/cli/commands/core/update
+wp core update-db|Runs the WordPress database update procedure.|https://developer.wordpress.org/cli/commands/core/update-db
+wp core verify-checksums|Verifies WordPress files against WordPress.org’s checksums.|https://developer.wordpress.org/cli/commands/core/verify-checksums
+wp core version|Displays the WordPress version.|https://developer.wordpress.org/cli/commands/core/version
+wp cron event|Schedules, runs, and deletes WP-Cron events.|https://developer.wordpress.org/cli/commands/cron/event
+wp cron schedule|Gets WP-Cron schedules.|https://developer.wordpress.org/cli/commands/cron/schedule
+wp cron test|Tests the WP Cron spawning system and reports back its status.|https://developer.wordpress.org/cli/commands/cron/test
+wp db check|Checks the current status of the database.|https://developer.wordpress.org/cli/commands/db/check
+wp db clean|Removes all tables with `$table_prefix` from the database.|https://developer.wordpress.org/cli/commands/db/clean
+wp db cli|Opens a MySQL console using credentials from wp-config.php|https://developer.wordpress.org/cli/commands/db/cli
+wp db columns|Displays information about a given table.|https://developer.wordpress.org/cli/commands/db/columns
+wp db create|Creates a new database.|https://developer.wordpress.org/cli/commands/db/create
+wp db drop|Deletes the existing database.|https://developer.wordpress.org/cli/commands/db/drop
+wp db export|Exports the database to a file or to STDOUT.|https://developer.wordpress.org/cli/commands/db/export
+wp db import|Imports a database from a file or from STDIN.|https://developer.wordpress.org/cli/commands/db/import
+wp db optimize|Optimizes the database.|https://developer.wordpress.org/cli/commands/db/optimize
+wp db prefix|Displays the database table prefix.|https://developer.wordpress.org/cli/commands/db/prefix
+wp db query|Executes a SQL query against the database.|https://developer.wordpress.org/cli/commands/db/query
+wp db repair|Repairs the database.|https://developer.wordpress.org/cli/commands/db/repair
+wp db reset|Removes all tables from the database.|https://developer.wordpress.org/cli/commands/db/reset
+wp db search|Finds a string in the database.|https://developer.wordpress.org/cli/commands/db/search
+wp option list|Lists options and their values.|https://developer.wordpress.org/cli/commands/option/list
+wp option patch|Updates a nested value in an option.|https://developer.wordpress.org/cli/commands/option/patch
+wp option pluck|Gets a nested value from an option.|https://developer.wordpress.org/cli/commands/option/pluck
+wp option update|Updates an option value.|https://developer.wordpress.org/cli/commands/option/update
+wp package browse|Browses WP-CLI packages available for installation.|https://developer.wordpress.org/cli/commands/package/browse
+wp package install|Installs a WP-CLI package.|https://developer.wordpress.org/cli/commands/package/install
+wp package list|Lists installed WP-CLI packages.|https://developer.wordpress.org/cli/commands/package/list
+wp package path|Gets the path to an installed WP-CLI package, or the package directory.|https://developer.wordpress.org/cli/commands/package/path
+wp package uninstall|Uninstalls a WP-CLI package.|https://developer.wordpress.org/cli/commands/package/uninstall
+wp package update|Updates all installed WP-CLI packages to their latest version.|https://developer.wordpress.org/cli/commands/package/update
+wp plugin activate|Activates one or more plugins.|https://developer.wordpress.org/cli/commands/plugin/activate
+wp plugin auto-updates|Manages plugin auto-updates.|https://developer.wordpress.org/cli/commands/plugin/auto-updates
+wp plugin deactivate|Deactivates one or more plugins.|https://developer.wordpress.org/cli/commands/plugin/deactivate
+wp plugin delete|Deletes plugin files without deactivating or uninstalling.|https://developer.wordpress.org/cli/commands/plugin/delete
+wp plugin get|Gets details about an installed plugin.|https://developer.wordpress.org/cli/commands/plugin/get
+wp plugin install|Installs one or more plugins.|https://developer.wordpress.org/cli/commands/plugin/install
+wp plugin is-active|Checks if a given plugin is active.|https://developer.wordpress.org/cli/commands/plugin/is-active
+wp plugin is-installed|Checks if a given plugin is installed.|https://developer.wordpress.org/cli/commands/plugin/is-installed
+wp plugin list|Gets a list of plugins.|https://developer.wordpress.org/cli/commands/plugin/list
+wp plugin path|Gets the path to a plugin or to the plugin directory.|https://developer.wordpress.org/cli/commands/plugin/path
+wp plugin search|Searches the WordPress.org plugin directory.|https://developer.wordpress.org/cli/commands/plugin/search
+wp plugin status|Reveals the status of one or all plugins.|https://developer.wordpress.org/cli/commands/plugin/status
+wp plugin toggle|Toggles a plugin’s activation state.|https://developer.wordpress.org/cli/commands/plugin/toggle
+wp plugin uninstall|Uninstalls one or more plugins.|https://developer.wordpress.org/cli/commands/plugin/uninstall
+wp plugin update|Updates one or more plugins.|https://developer.wordpress.org/cli/commands/plugin/update
+wp plugin verify-checksums|Verifies plugin files against WordPress.org’s checksums.|https://developer.wordpress.org/cli/commands/plugin/verify-checksums
+wp post create|Creates a new post.|https://developer.wordpress.org/cli/commands/post/create
+wp post delete|Deletes an existing post.|https://developer.wordpress.org/cli/commands/post/delete
+wp post edit|Launches system editor to edit post content.|https://developer.wordpress.org/cli/commands/post/edit
+wp post exists|Verifies whether a post exists.|https://developer.wordpress.org/cli/commands/post/exists
+wp post generate|Generates some posts.|https://developer.wordpress.org/cli/commands/post/generate
+wp post get|Gets details about a post.|https://developer.wordpress.org/cli/commands/post/get
+wp post list|Gets a list of posts.|https://developer.wordpress.org/cli/commands/post/list
+wp post meta|Adds, updates, deletes, and lists post custom fields.|https://developer.wordpress.org/cli/commands/post/meta
+wp post term|Adds, updates, removes, and lists post terms.|https://developer.wordpress.org/cli/commands/post/term
+wp post update|Updates one or more existing posts.|https://developer.wordpress.org/cli/commands/post/update
+wp profile eval|Profile arbitrary code execution.|https://developer.wordpress.org/cli/commands/profile/eval
+wp profile eval-file|Profile execution of an arbitrary file.|https://developer.wordpress.org/cli/commands/profile/eval-file
+wp profile hook|Profile key metrics for WordPress hooks (actions and filters).|https://developer.wordpress.org/cli/commands/profile/hook
+wp profile stage|Profile each stage of the WordPress load process (bootstrap, main_query, template).|https://developer.wordpress.org/cli/commands/profile/stage
+wp rewrite flush|Flushes rewrite rules.|https://developer.wordpress.org/cli/commands/rewrite/flush
+wp rewrite list|Gets a list of the current rewrite rules.|https://developer.wordpress.org/cli/commands/rewrite/list
+wp rewrite structure|Updates the permalink structure.|https://developer.wordpress.org/cli/commands/rewrite/structure
+wp role create|Creates a new role.|https://developer.wordpress.org/cli/commands/role/create
+wp role delete|Deletes an existing role.|https://developer.wordpress.org/cli/commands/role/delete
+wp role exists|Checks if a role exists.|https://developer.wordpress.org/cli/commands/role/exists
+wp role list|Lists all roles.|https://developer.wordpress.org/cli/commands/role/list
+wp role reset|Resets any default role to default capabilities.|https://developer.wordpress.org/cli/commands/role/reset
+wp scaffold block|Generates PHP, JS and CSS code for registering a Gutenberg block for a plugin or theme.|https://developer.wordpress.org/cli/commands/scaffold/block
+wp scaffold child-theme|Generates child theme based on an existing theme.|https://developer.wordpress.org/cli/commands/scaffold/child-theme
+wp scaffold plugin|Generates starter code for a plugin.|https://developer.wordpress.org/cli/commands/scaffold/plugin
+wp scaffold plugin-tests|Generates files needed for running PHPUnit tests in a plugin.|https://developer.wordpress.org/cli/commands/scaffold/plugin-tests
+wp scaffold post-type|Generates PHP code for registering a custom post type.|https://developer.wordpress.org/cli/commands/scaffold/post-type
+wp scaffold taxonomy|Generates PHP code for registering a custom taxonomy.|https://developer.wordpress.org/cli/commands/scaffold/taxonomy
+wp scaffold theme-tests|Generates files needed for running PHPUnit tests in a theme.|https://developer.wordpress.org/cli/commands/scaffold/theme-tests
+wp scaffold underscores|Generates starter code for a theme based on _s.|https://developer.wordpress.org/cli/commands/scaffold/underscores
+wp scaffold _s|Generates starter code for a theme based on _s.|https://developer.wordpress.org/cli/commands/scaffold/_s
+wp sidebar list|Lists registered sidebars.|https://developer.wordpress.org/cli/commands/sidebar/list
+wp site activate|Activates one or more sites.|https://developer.wordpress.org/cli/commands/site/activate
+wp site archive|Archives one or more sites.|https://developer.wordpress.org/cli/commands/site/archive
+wp site create|Creates a site in a multisite installation.|https://developer.wordpress.org/cli/commands/site/create
+wp site deactivate|Deactivates one or more sites.|https://developer.wordpress.org/cli/commands/site/deactivate
+wp site delete|Deletes a site in a multisite installation.|https://developer.wordpress.org/cli/commands/site/delete
+wp site empty|Empties a site of its content (posts, comments, terms, and meta).|https://developer.wordpress.org/cli/commands/site/empty
+wp site list|Lists all sites in a multisite installation.|https://developer.wordpress.org/cli/commands/site/list
+wp site mature|Sets one or more sites as mature.|https://developer.wordpress.org/cli/commands/site/mature
+wp site meta|Adds, updates, deletes, and lists site custom fields.|https://developer.wordpress.org/cli/commands/site/meta
+wp site option|Adds, updates, deletes, and lists site options in a multisite installation.|https://developer.wordpress.org/cli/commands/site/option
+wp site private|Sets one or more sites as private.|https://developer.wordpress.org/cli/commands/site/private
+wp site public|Sets one or more sites as public.|https://developer.wordpress.org/cli/commands/site/public
+wp site spam|Marks one or more sites as spam.|https://developer.wordpress.org/cli/commands/site/spam
+wp site switch-language|Activates a given language.|https://developer.wordpress.org/cli/commands/site/switch-language
+wp site unarchive|Unarchives one or more sites.|https://developer.wordpress.org/cli/commands/site/unarchive
+wp site unmature|Sets one or more sites as immature.|https://developer.wordpress.org/cli/commands/site/unmature
+wp site unspam|Removes one or more sites from spam.|https://developer.wordpress.org/cli/commands/site/unspam
+wp super-admin add|Grants super admin privileges to one or more users.|https://developer.wordpress.org/cli/commands/super-admin/add
+wp super-admin list|Lists users with super admin capabilities.|https://developer.wordpress.org/cli/commands/super-admin/list
+wp super-admin remove|Removes super admin privileges from one or more users.|https://developer.wordpress.org/cli/commands/super-admin/remove
+wp taxonomy get|Gets details about a registered taxonomy.|https://developer.wordpress.org/cli/commands/taxonomy/get
+wp taxonomy list|Lists registered taxonomies.|https://developer.wordpress.org/cli/commands/taxonomy/list
+wp term create|Creates a new term.|https://developer.wordpress.org/cli/commands/term/create
+wp term delete|Deletes an existing term.|https://developer.wordpress.org/cli/commands/term/delete
+wp term generate|Generates some terms.|https://developer.wordpress.org/cli/commands/term/generate
+wp term get|Gets details about a term.|https://developer.wordpress.org/cli/commands/term/get
+wp term list|Lists terms in a taxonomy.|https://developer.wordpress.org/cli/commands/term/list
+wp term meta|Adds, updates, deletes, and lists term custom fields.|https://developer.wordpress.org/cli/commands/term/meta
+wp term migrate|Migrate a term of a taxonomy to another taxonomy.|https://developer.wordpress.org/cli/commands/term/migrate
+wp term recount|Recalculates number of posts assigned to each term.|https://developer.wordpress.org/cli/commands/term/recount
+wp term update|Updates an existing term.|https://developer.wordpress.org/cli/commands/term/update
+wp theme activate|Activates a theme.|https://developer.wordpress.org/cli/commands/theme/activate
+wp user meta|Adds, updates, deletes, and lists user custom fields.|https://developer.wordpress.org/cli/commands/user/meta
+wp user remove-cap|Removes a user’s capability.|https://developer.wordpress.org/cli/commands/user/remove-cap
+wp user remove-role|Removes a user’s role.|https://developer.wordpress.org/cli/commands/user/remove-role
+wp user reset-password|Resets the password for one or more users.|https://developer.wordpress.org/cli/commands/user/reset-password
+wp user session|Destroys and lists a user’s sessions.|https://developer.wordpress.org/cli/commands/user/session
+wp user set-role|Sets the user role.|https://developer.wordpress.org/cli/commands/user/set-role
+wp user spam|Marks one or more users as spam.|https://developer.wordpress.org/cli/commands/user/spam
+wp user term|Adds, updates, removes, and lists user terms.|https://developer.wordpress.org/cli/commands/user/term
+wp user unspam|Removes one or more users from spam.|https://developer.wordpress.org/cli/commands/user/unspam
+wp user update|Updates an existing user.|https://developer.wordpress.org/cli/commands/user/update
+wp widget add|Adds a widget to a sidebar.|https://developer.wordpress.org/cli/commands/widget/add
+wp widget deactivate|Deactivates one or more widgets from an active sidebar.|https://developer.wordpress.org/cli/commands/widget/deactivate
+wp widget delete|Deletes one or more widgets from a sidebar.|https://developer.wordpress.org/cli/commands/widget/delete
+wp widget list|Lists widgets associated with a sidebar.|https://developer.wordpress.org/cli/commands/widget/list
+wp widget move|Moves the position of a widget.|https://developer.wordpress.org/cli/commands/widget/move
+wp widget reset|Resets sidebar.|https://developer.wordpress.org/cli/commands/widget/reset
+wp widget update|Updates options for an existing widget.|https://developer.wordpress.org/cli/commands/widget/update
+wp db size|Displays the database name and size.|https://developer.wordpress.org/cli/commands/db/size
+wp db tables|Lists the database tables.|https://developer.wordpress.org/cli/commands/db/tables
+wp embed cache|Finds, triggers, and deletes oEmbed caches.|https://developer.wordpress.org/cli/commands/embed/cache
+wp embed fetch|Attempts to convert a URL into embed HTML.|https://developer.wordpress.org/cli/commands/embed/fetch
+wp embed handler|Retrieves embed handlers.|https://developer.wordpress.org/cli/commands/embed/handler
+wp embed provider|Retrieves oEmbed providers.|https://developer.wordpress.org/cli/commands/embed/provider
+wp i18n make-json|Extract JavaScript strings from PO files and add them to individual JSON files.|https://developer.wordpress.org/cli/commands/i18n/make-json
+wp i18n make-mo|Create MO files from PO files.|https://developer.wordpress.org/cli/commands/i18n/make-mo
+wp i18n make-pot|Create a POT file for a WordPress project.|https://developer.wordpress.org/cli/commands/i18n/make-pot
+wp i18n update-po|Update PO files from a POT file.|https://developer.wordpress.org/cli/commands/i18n/update-po
+wp language core|Installs, activates, and manages core language packs.|https://developer.wordpress.org/cli/commands/language/core
+wp language plugin|Installs, activates, and manages plugin language packs.|https://developer.wordpress.org/cli/commands/language/plugin
+wp language theme|Installs, activates, and manages theme language packs.|https://developer.wordpress.org/cli/commands/language/theme
+wp media fix-orientation|Fix image orientation for one or more attachments.|https://developer.wordpress.org/cli/commands/media/fix-orientation
+wp media image-size|Lists image sizes registered with WordPress.|https://developer.wordpress.org/cli/commands/media/image-size
+wp media import|Creates attachments from local files or URLs.|https://developer.wordpress.org/cli/commands/media/import
+wp media regenerate|Regenerates thumbnails for one or more attachments.|https://developer.wordpress.org/cli/commands/media/regenerate
+wp menu create|Creates a new menu.|https://developer.wordpress.org/cli/commands/menu/create
+wp menu delete|Deletes one or more menus.|https://developer.wordpress.org/cli/commands/menu/delete
+wp menu item|List, add, and delete items associated with a menu.|https://developer.wordpress.org/cli/commands/menu/item
+wp menu list|Gets a list of menus.|https://developer.wordpress.org/cli/commands/menu/list
+wp menu location|Assigns, removes, and lists a menu’s locations.|https://developer.wordpress.org/cli/commands/menu/location
+wp network meta|Gets, adds, updates, deletes, and lists network custom fields.|https://developer.wordpress.org/cli/commands/network/meta
+wp option add|Adds a new option value.|https://developer.wordpress.org/cli/commands/option/add
+wp option delete|Deletes an option.|https://developer.wordpress.org/cli/commands/option/delete
+wp option get|Gets the value for an option.|https://developer.wordpress.org/cli/commands/option/get
+wp maintenance-mode activate|Activates maintenance mode.|https://developer.wordpress.org/cli/commands/maintenance-mode/activate
+wp maintenance-mode deactivate|Deactivates maintenance mode.|https://developer.wordpress.org/cli/commands/maintenance-mode/deactivate
+wp maintenance-mode is-active|Detects maintenance mode status.|https://developer.wordpress.org/cli/commands/maintenance-mode/is-active
+wp maintenance-mode status |Displays maintenance mode status.|https://developer.wordpress.org/cli/commands/maintenance-mode/status/
+wp theme auto-updates|Manages theme auto-updates.|https://developer.wordpress.org/cli/commands/theme/auto-updates
+wp theme delete|Deletes one or more themes.|https://developer.wordpress.org/cli/commands/theme/delete
+wp theme disable|Disables a theme on a WordPress multisite install.|https://developer.wordpress.org/cli/commands/theme/disable
+wp theme enable|Enables a theme on a WordPress multisite install.|https://developer.wordpress.org/cli/commands/theme/enable
+wp theme get|Gets details about a theme.|https://developer.wordpress.org/cli/commands/theme/get
+wp theme install|Installs one or more themes.|https://developer.wordpress.org/cli/commands/theme/install
+wp theme is-active|Checks if a given theme is active.|https://developer.wordpress.org/cli/commands/theme/is-active
+wp theme is-installed|Checks if a given theme is installed.|https://developer.wordpress.org/cli/commands/theme/is-installed
+wp theme list|Gets a list of themes.|https://developer.wordpress.org/cli/commands/theme/list
+wp theme mod|Sets, gets, and removes theme mods.|https://developer.wordpress.org/cli/commands/theme/mod
+wp theme path|Gets the path to a theme or to the theme directory.|https://developer.wordpress.org/cli/commands/theme/path
+wp theme search|Searches the WordPress.org theme directory.|https://developer.wordpress.org/cli/commands/theme/search
+wp theme status|Reveals the status of one or all themes.|https://developer.wordpress.org/cli/commands/theme/status
+wp theme update|Updates one or more themes.|https://developer.wordpress.org/cli/commands/theme/update
+wp transient delete|Deletes a transient value.|https://developer.wordpress.org/cli/commands/transient/delete
+wp transient get|Gets a transient value.|https://developer.wordpress.org/cli/commands/transient/get
+wp transient list|Lists transients and their values.|https://developer.wordpress.org/cli/commands/transient/list
+wp transient set|Sets a transient value.|https://developer.wordpress.org/cli/commands/transient/set
+wp transient type|Determines the type of transients implementation.|https://developer.wordpress.org/cli/commands/transient/type
+wp user add-cap|Adds a capability to a user.|https://developer.wordpress.org/cli/commands/user/add-cap
+wp user add-role|Adds a role for a user.|https://developer.wordpress.org/cli/commands/user/add-role
+wp user check-password|Checks if a user’s password is valid or not.|https://developer.wordpress.org/cli/commands/user/check-password
+wp user create|Creates a new user.|https://developer.wordpress.org/cli/commands/user/create
+wp user delete|Deletes one or more users from the current site.|https://developer.wordpress.org/cli/commands/user/delete
+wp user generate|Generates some users.|https://developer.wordpress.org/cli/commands/user/generate
+wp user get|Gets details about a user.|https://developer.wordpress.org/cli/commands/user/get
+wp user import-csv|Imports users from a CSV file.|https://developer.wordpress.org/cli/commands/user/import-csv
+wp user list|Lists users.|https://developer.wordpress.org/cli/commands/user/list
+wp user list-caps|Lists all capabilities for a user.|https://developer.wordpress.org/cli/commands/user/list-caps
+wp user application-password|Creates, updates, deletes, lists and retrieves application passwords.|https://developer.wordpress.org/cli/commands/user/application-password
+
