@@ -7,6 +7,7 @@ if [ -d "$dir_n" ]; then
   mv go ../
   mv "$dir_n/" ".$dir_n/"
   echo "Installation complete."
+  rm $0  
 else
   echo "Clone error"
 fi
