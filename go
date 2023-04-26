@@ -38,12 +38,6 @@ grep "$kword" "$myfile" | while read -r line;
 
 do
 
-
-if [ "$line" -ne "$kword" ]; then
-echo "Nothing found"
-exit 0
-fi
-
 if [ "$i" = 1 ]; then
 cat "$hcol"
 fi
