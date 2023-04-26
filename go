@@ -37,6 +37,11 @@ grep "$kword" "$myfile" | while read -r line;
 
 do
 
+if [ -z "$line" ]; then
+echo -n "Nothing found"
+exit 0
+fi
+
 if [ "$i" = 1 ]; then
 cat "$hcol"
 fi
@@ -47,11 +52,6 @@ echo -e "\n"
 i=$(($i+1))
 done | column -t -s "|"
 ask
-
-if [ -z "$line"]; then
-echo -n "Nothing found"
-fi
-
 }
 
 ask(){
