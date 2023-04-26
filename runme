@@ -5,7 +5,7 @@ dir_n="inc"
 if [ -d "$dir_n" ]; then
   chmod +x go
   mv go ../
-  mv "$dir_n/" ".$$dir_n/"
+  mv "$dir_n/" ".$dir_n/"
   echo "Installation complete."
 else
   echo "Clone error"
