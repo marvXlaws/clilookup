@@ -1,5 +1,7 @@
 # clilookup
 
+This tool will simply provide you with the relevant WP CLI commands depending on your chosen keyword.
+
 1. Install GIT on your terminal by running this command.
 
 sudo apt install git
