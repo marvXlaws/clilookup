@@ -12,7 +12,7 @@ sudo apt install git
 
 git clone https://github.com/CODERmarv/clilookup.git
 
-3. then change directory to clilookup/
+3. Then change directory to clilookup/
 
 cd clilookup/
 
