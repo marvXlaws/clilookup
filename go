@@ -25,6 +25,7 @@ printf "\n"
 printf "\n"
 printf  "Enter command keyword: "
 read -r kword
+printf "\n"
 printf "Keyword entered: '${RED}$kword${END}' \n\n"
 echo -e "Results:\n"
 extract $kword
@@ -37,7 +38,8 @@ grep "$kword" "$myfile" | while read -r line;
 
 do
 
-if [ "$line" -ne "kword" ]; then
+
+if [ "$line" -ne "$kword" ]; then
 echo "Nothing found"
 exit 0
 fi
@@ -73,6 +75,7 @@ printf "=%.0s"  $(seq 1 63)
 printf "\n"
 printf  "Enter command keyword: "
 read -r kword
+printf "\n"
 printf "Keyword entered: '${RED}$kword${END}' \n\n"
 echo -e "Results:\n"
 extract $kword
