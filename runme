@@ -3,16 +3,31 @@
 dir_n="inc"
 bin="bin"
 
-cd ~
+echo "$PWD" > pd.txt
+pd=$(cat pd.txt)
 
-if [ -d "$bin" ]; then
-  chmod +x go
-  mv go ../
-  mv "$dir_n/" ".$dir_n/"
-  echo "Installation complete."
-  rm $0  
+if [ -d "~/$bin" ]; then
+  bin_exists
 else
-  echo "Clone error"
+  bin_zero
 fi
 
+function bin_exists(){
+  cd "$pd"
+  chmod +x go
+  mv go ~/bin
+  mv "$dir_n/" ".$dir_n/"
+  mv ".$dir_n/" "~/bin/.$dir_n/"
+  echo "Installation complete."
+  rm $0  
+}
+
+function bin_zero(){
+
+cd ~
+mkdir bin
+echo "Directory bin has been created successfully."
+cd "$pd"
+bin_exists
+}
 
