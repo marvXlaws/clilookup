@@ -33,8 +33,13 @@ extract $kword
 
 extract(){
 
-grep "$kword" "$myfile" | while
-read -r line; 
+result=$(grep "$kword" "$myfile")
+
+case $result in
+
+-n)
+    
+while read -r line; 
 do
 
 if [ "$i" = 1 ]; then
@@ -47,10 +52,16 @@ echo -e "\n"
 i=$(($i+1))
 done | column -t -s "|"
 ask
+;;
+
+-z)
+echo -n "Nothing found"
+;;
+esac
 
 }
 
-function ask(){
+ask(){
 printf "\n"
 read -p "Continue? [y/n] : " opt
 
