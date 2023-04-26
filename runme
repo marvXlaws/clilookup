@@ -35,6 +35,7 @@ mkdir bin
 
 	if [ -d "$bin" ]; then
 	echo "Directory bin has been created successfully."
+	cd "$bin"
 	bin_exists
 	else
 	echo "Error creating directory"
