@@ -9,3 +9,7 @@ sudo apt install git
 3. CD to that bin folder then run the command below
 
 git clone https://github.com/CODERmarv/clilookup.git
+
+4. Execute runme file by running this command.
+
+sh runme
