@@ -1,6 +1,14 @@
 #!/bin/bash
 
-chmod +x go
-mv go ../
+dir_n="clilookup"
+# Check if the directory exists
+if [ -d "$dir_n" ]; then
+  chmod +x go
+  mv go ../
+  mv "$dir_n" ".$$dir_n"
+  echo "Installation complete."
+else
+  echo "Clone error"
+fi
 
-echo "Installation complete."
+
