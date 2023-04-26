@@ -33,11 +33,8 @@ extract $kword
 
 extract(){
 
-result=$(grep "$kword" "$myfile" | while read -r line;)
+grep "$kword" "$myfile" | while read -r line;
 
-case $result in
-
--n)
 do
 
 if [ "$i" = 1 ]; then
@@ -50,12 +47,10 @@ echo -e "\n"
 i=$(($i+1))
 done | column -t -s "|"
 ask
-;;
 
--z)
+if [ -z "$line"]; then
 echo -n "Nothing found"
-;;
-esac
+fi
 
 }
 
