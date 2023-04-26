@@ -46,7 +46,7 @@ mkdir bin
 rmdir() {
   cd "$pd"
   cd ../
-  rm -r "clilookup"
+  rm -r -f "clilookup"
 }
 
 start() {
