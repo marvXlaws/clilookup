@@ -1,7 +1,7 @@
 #!/bin/bash
 
-dir_n="clilookup"
-# Check if the directory exists
+dir_n="inc"
+
 if [ -d "$dir_n" ]; then
   chmod +x go
   mv go ../
