@@ -2,7 +2,7 @@
 
 <---for Linux terminal / gitbash(windows) only.-->
 
-This is a Shell based tool that will simply provide you with the relevant WP CLI commands depending on your chosen keyword. 
+This is a Shell based tool that will simply provide you with the relevant WP CLI commands depending on your chosen keyword. It can be launched just by using an internal command "go".
 
 1. Install GIT on your terminal by running this command.
 
