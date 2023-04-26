@@ -4,7 +4,7 @@ GREEN="\e[32m"
 END="\e[0m"
 
 bindir="/home/$USER/bin/"
-inc="/home/$USER/bin/clilookup/inc"
+inc="/home/$USER/bin/.clilookup/inc"
 
 myfile="$inc/all.txt"
 hcol="$inc/clihead.txt"
