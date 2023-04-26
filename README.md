@@ -2,7 +2,7 @@
 
 1. Install GIT on your terminal by running this command.
 
-sudo apt git install
+sudo apt install git
 
 2. Make a ~/bin folder in your home directory
 
