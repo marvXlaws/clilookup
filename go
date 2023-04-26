@@ -3,8 +3,8 @@ RED="\e[31m"
 GREEN="\e[32m"
 END="\e[0m"
 
-bindir="/home/marvin/bin/"
-inc="/home/marvin/bin/inc"
+bindir="/home/$USER/bin/"
+inc="/home/$USER/bin/inc"
 
 myfile="$inc/all.txt"
 hcol="$inc/clihead.txt"
