@@ -7,26 +7,45 @@ echo "$PWD" > pd.txt
 pd=$(cat pd.txt)
 
 bin_exists() {
-  cd "$bin"
+ 
   mv "$pd/go" ./
   chmod +x go
   echo "Done permission for the go file."
+  
   mv "$pd/$dir_n/" ./
   echo "Done copying inc directory."
+  
   mv "$dir_n/" ".$dir_n/"
   mv "$pd/.git" ./
   echo "Done copying git file."
+  
   mv "$pd/README.md" ./
   echo "Done copying README file."
+  
   echo "Installation complete."
-  rm "pd.txt" $0
+  
+  rmdir
+  
 }
 
 binzero() {
+
 echo "Directory bin doesn't exist..creating the directory"
 mkdir bin
-echo "Directory bin has been created successfully."
-bin_exists
+
+	if [ -d "$bin" ]; then
+	echo "Directory bin has been created successfully."
+	bin_exists
+	else
+	echo "Error creating directory"
+	exit 1
+	fi
+
+}
+
+rmdir() {
+  cd ../
+  rm -r "clilookup/"
 }
 
 start() {
@@ -34,6 +53,7 @@ start() {
 cd ~
 
 if [ -d "$bin" ]; then
+  cd "$bin"
   bin_exists
 else
   binzero
