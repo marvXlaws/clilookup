@@ -4,6 +4,8 @@
 
 This is a <b>Shell</b> based tool that will simply provide you with the relevant WP CLI commands depending on your chosen keyword. It can be launched just by using an internal command "<b>go</b>".
 
+INSTALLATION
+
 1. Install GIT on your terminal by running this command.
 
 <b>sudo apt install git</b>
