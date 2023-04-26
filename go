@@ -37,8 +37,8 @@ grep "$kword" "$myfile" | while read -r line;
 
 do
 
-if [ -z "$line" ]; then
-echo -n "Nothing found"
+if [ "$line" -ne "kword" ]; then
+echo "Nothing found"
 exit 0
 fi
 
