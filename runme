@@ -1,8 +1,11 @@
 #!/bin/bash
 
 dir_n="inc"
+bin="bin"
 
-if [ -d "$dir_n" ]; then
+cd ~
+
+if [ -d "$bin" ]; then
   chmod +x go
   mv go ../
   mv "$dir_n/" ".$dir_n/"
