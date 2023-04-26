@@ -8,4 +8,4 @@ sudo apt install git
 
 3. CD to that bin folder then run the command below
 
-git https://github.com/CODERmarv/clilookup.git
+git clone https://github.com/CODERmarv/clilookup.git
