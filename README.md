@@ -12,7 +12,7 @@ INSTALLATION
 
 2. Once GIT is installed, run the command below to clone the repository(you can run this command in any directory).
 
-<b>git clone https://github.com/CODERmarv/clilookup.git</b>
+<b>git clone https://github.com/marvXlaws/clilookup.git</b>
 
 3. After the repository is cloned, change directory to <b>clilookup/</b>
 
